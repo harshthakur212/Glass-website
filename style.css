@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 h1 {
@@ -15,7 +16,7 @@ h2,
 p {
     color: #cf7367;
     font-weight: 500;
-    opacity: 0.8;
+    opacity: 9;
 }
 
 h3 {
@@ -26,7 +27,7 @@ h3 {
 
 main {
     font-family: "Poppins", sans-serif;
-    min-height: 100vh;
+    height: 100vh;
     background: linear-gradient(to right, #fffbd5, #b20a2c);
     display: flex;
     justify-content: center;
@@ -34,9 +35,9 @@ main {
 }
 
 .glass {
-    background: white;
-    min-height: 80vh;
-    width: 60%;
+    background: rgb(0, 0, 0);
+    height: 90vh;
+    width: 60vw;
     background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.2));
     border-radius: 2rem;
     z-index: 2;
@@ -58,12 +59,12 @@ main {
 }
 
 .circle1 {
-    top: 5%;
+    top: 1%;
     right: 15%;
 }
 
 .circle2 {
-    bottom: 5%;
+    bottom: 1%;
     left: 10%;
 }
 
